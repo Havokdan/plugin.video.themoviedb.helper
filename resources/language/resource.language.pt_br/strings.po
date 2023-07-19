@@ -144,17 +144,17 @@ msgstr "Usar fanart.tv para arte do widget (mais lento)"
 #: /resources/settings.xml
 msgctxt "#32029"
 msgid "OMDb API"
-msgstr "OMDb API"
+msgstr "API OMDb"
 
 #: /resources/settings.xml
 msgctxt "#32030"
 msgid "Fanart.tv API"
-msgstr "Fanart.tv API"
+msgstr "API Fanart.tv"
 
 #: /resources/settings.xml
 msgctxt "#32031"
 msgid "Trakt API"
-msgstr "Trakt API"
+msgstr "API Trakt"
 
 #: /resources/settings.xml
 msgctxt "#32032"
@@ -579,7 +579,7 @@ msgstr "Também aceita X dias relativos a partir de hoje no formato T-X ou T+X (
 #: /resources/lib/container.py
 msgctxt "#32114"
 msgid "Enter"
-msgstr "Enter"
+msgstr "Digite"
 
 #: /resources/lib/container.py
 msgctxt "#32115"
@@ -2167,7 +2167,7 @@ msgstr "Melhores Listas"
 #: /resources/settings.xml
 msgctxt "#32422"
 msgid "MDbList API"
-msgstr "MDbList API"
+msgstr "API MDbList"
 
 #: /resources/settings.xml
 msgctxt "#32423"
@@ -2477,259 +2477,319 @@ msgstr "Permitir acesso de plug-in de terceiros à chave/token da API"
 #: /resources/settings.xml
 msgctxt "#32484"
 msgid "TVDb API"
-msgstr "TVDb API"
+msgstr "API TVDb"
 
+#: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#30030"
-msgid "Hindi (India)"
+msgid "Add rating"
 msgstr "Hindi (Índia)"
 
+#: /resources/tmdbhelper/lib/api/tmdb/discover.py
 msgctxt "#30031"
-msgid "Hungarian (Hungary)"
+msgid "Certification"
 msgstr "Húngaro (Hungria)"
 
+#: /resources/tmdbhelper/lib/api/tmdb/discover.py
 msgctxt "#30032"
-msgid "Indonesian (Indonesia)"
+msgid "Certification ( < or = )"
 msgstr "Indonésio (indonésio)"
 
+#: /resources/tmdbhelper/lib/api/tmdb/discover.py
 msgctxt "#30033"
-msgid "Italian (Italy)"
+msgid "Certification ( > or = )"
 msgstr "Italiano (Itália)"
 
+#: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#30034"
-msgid "Japanese (Japan)"
+msgid "Change rating"
 msgstr "Japonês (Japão)"
 
+#: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#30035"
-msgid "Georgian (Georgia)"
+msgid "Add to favourites"
 msgstr "Georgiano (Geórgia)"
 
+#: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#30036"
-msgid "Kazakh (Kazakhstan)"
+msgid "Remove from favourites"
 msgstr "Cazaque (Cazaquistão)"
 
+#: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#30037"
-msgid "Kannada (India)"
+msgid "{} already exists in {}!\\nDo you wish to remove this item from the list?"
 msgstr "Kannada (Índia)"
 
+#: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#30038"
-msgid "Korean (South Korea)"
+msgid "Successfully removed {} from {}"
 msgstr "Coreano (Coreia do Sul)"
 
+#: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#30039"
-msgid "Lithuanian (Lithuania)"
+msgid "Successfully added {} to {}"
 msgstr "Lituano (Lituânia)"
 
+#: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#30040"
-msgid "Latvian (Latvia)"
+msgid "Create new node"
 msgstr "Letão (Letônia)"
 
+#: /resources/tmdbhelper/lib/items/container.py
 msgctxt "#30041"
-msgid "Malayalam (India)"
+msgid "Add/Remove as Custom Node"
 msgstr "Malaiala (Índia)"
 
 msgctxt "#30042"
-msgid "Malay (Malaysia)"
+msgid "Hindi (India)"
 msgstr "Malaio (Malásia)"
 
 msgctxt "#30043"
-msgid "Malay (Singapore)"
+msgid "Hungarian (Hungary)"
 msgstr "Malaio (Cingapura)"
 
 msgctxt "#30044"
-msgid "Norwegian Bokmål (Norway)"
+msgid "Indonesian (Indonesia)"
 msgstr "Bokmål Norueguês (Noruega)"
 
 msgctxt "#30045"
-msgid "Dutch (Netherlands)"
+msgid "Italian (Italy)"
 msgstr "Holandês (Holanda)"
 
 msgctxt "#30046"
-msgid "Norwegian (Norway)"
+msgid "Japanese (Japan)"
 msgstr "Norueguês (Noruega)"
 
 msgctxt "#30047"
-msgid "Polish (Poland)"
+msgid "Georgian (Georgia)"
 msgstr "Polonês (Polônia)"
 
 msgctxt "#30048"
-msgid "Portuguese (Brazil)"
+msgid "Kazakh (Kazakhstan)"
 msgstr "Português (Brasil)"
 
 msgctxt "#30049"
-msgid "Portuguese (Portugal)"
+msgid "Kannada (India)"
 msgstr "Português (Portugal)"
 
 msgctxt "#30050"
-msgid "Romanian (Romania)"
+msgid "Korean (South Korea)"
 msgstr "Romeno (Romênia)"
 
 msgctxt "#30051"
-msgid "Russian (Russia)"
+msgid "Lithuanian (Lithuania)"
 msgstr "Russo (Rússia)"
 
 msgctxt "#30052"
-msgid "Sinhalese (Sri Lanka)"
+msgid "Latvian (Latvia)"
 msgstr "Cingalês (Sri Lanka)"
 
 msgctxt "#30053"
-msgid "Slovak (Slovakia)"
+msgid "Malayalam (India)"
 msgstr "Eslovaco (Eslováquia)"
 
 msgctxt "#30054"
-msgid "Slovenian (Slovenia)"
+msgid "Malay (Malaysia)"
 msgstr "Esloveno (Eslovênia)"
 
 msgctxt "#30055"
-msgid "Serbian (Serbia)"
+msgid "Malay (Singapore)"
 msgstr "Sérvio (Sérvia)"
 
 msgctxt "#30056"
-msgid "Swedish (Sweden)"
+msgid "Norwegian Bokmål (Norway)"
 msgstr "Sueco (Suécia)"
 
 msgctxt "#30057"
-msgid "Tamil (India)"
+msgid "Dutch (Netherlands)"
 msgstr "Tâmil (Índia)"
 
 msgctxt "#30058"
-msgid "Telugu (India)"
+msgid "Norwegian (Norway)"
 msgstr "Telugu (Índia)"
 
 msgctxt "#30059"
-msgid "Thai (Thailand)"
+msgid "Polish (Poland)"
 msgstr "Tailandês (Tailândia)"
 
 msgctxt "#30060"
-msgid "Tagalog (Philippines)"
+msgid "Portuguese (Brazil)"
 msgstr "Tagalo (Filipinas)"
 
 msgctxt "#30061"
-msgid "Turkish (Turkey)"
+msgid "Portuguese (Portugal)"
 msgstr "Turco (Turquia)"
 
 msgctxt "#30062"
-msgid "Ukrainian (Ukraine)"
+msgid "Romanian (Romania)"
 msgstr "Ucraniano (Ucrânia)"
 
 msgctxt "#30063"
-msgid "Vietnamese (Vietnam)"
+msgid "Russian (Russia)"
 msgstr "Vietnamita (Vietnã)"
 
 msgctxt "#30064"
-msgid "Mandarin (China)"
+msgid "Sinhalese (Sri Lanka)"
 msgstr "Mandarim (China)"
 
 msgctxt "#30065"
-msgid "Mandarin (Hong Kong)"
+msgid "Slovak (Slovakia)"
 msgstr "Mandarim (Hong Kong)"
 
 msgctxt "#30066"
-msgid "Mandarin (Taiwan)"
+msgid "Slovenian (Slovenia)"
 msgstr "Mandarim (Taiwan)"
 
 msgctxt "#30067"
-msgid "Zulu (South Africa)"
+msgid "Serbian (Serbia)"
 msgstr "Zulu (África do Sul)"
 
-#: /resources/settings.xml
 msgctxt "#32000"
-msgid "TMDb API key"
+msgid "Swedish (Sweden)"
 msgstr "Chave TMDb API"
 
-#: /resources/settings.xml
 msgctxt "#32001"
-msgid "OMDb API key"
+msgid "Tamil (India)"
 msgstr "Chave OMDb API"
 
-#: /resources/settings.xml
 msgctxt "#32002"
-msgid "Days to cache details"
+msgid "Telugu (India)"
 msgstr "Dias para armazenar detalhes em cache"
 
-#: /resources/settings.xml
 msgctxt "#32003"
-msgid "Days to cache lists"
+msgid "Thai (Thailand)"
 msgstr "Dias para listas de cache"
 
-#: /resources/settings.xml
 msgctxt "#32004"
-msgid "MPAA rating prefix"
+msgid "Tagalog (Philippines)"
 msgstr "Prefixo de classificação MPAA"
 
-#: /resources/settings.xml
 msgctxt "#32005"
-msgid "Language and country"
+msgid "Turkish (Turkey)"
 msgstr "Idioma e país"
 
-#: /resources/lib/utils.py
 msgctxt "#32006"
-msgid "Choose item"
+msgid "Ukrainian (Ukraine)"
 msgstr "Escolher item"
 
-#: /resources/lib/requestapi.py
 msgctxt "#32007"
-msgid "Unauthorised 401 Error"
+msgid "Vietnamese (Vietnam)"
 msgstr "Erro 401 não autorizado"
 
-#: /resources/lib/requestapi.py
 msgctxt "#32008"
-msgid "API Key"
+msgid "Mandarin (China)"
 msgstr "Chave de API"
 
-#: /resources/lib/requestapi.py
 msgctxt "#32009"
-msgid "API returned 401 unauthorised error. If you have entered an API key for this service$COMMA please check that it is correct. If this error relates to TMDb API$COMMA please post a debug log to [B]https://github.com/jurialmunkey/plugin.video.themoviedb.helper/issues[/B]"
+msgid "Mandarin (Hong Kong)"
 msgstr "API retornou 401 erro não autorizado. Se você inseriu uma chave de API para este serviço$COMMA, verifique se está correta. Se este erro estiver relacionado ao TMDb API$COMMA, poste um log de depuração em [B]https://github.com/jurialmunkey/plugin.video.themoviedb.helper/issues[/B]"
 
-#: /resources/settings.xml
 msgctxt "#32010"
-msgid "Authenticate Trakt account..."
+msgid "Mandarin (Taiwan)"
 msgstr "Autenticar conta Trakt..."
 
-#: /resources/lib/traktapi.py
 msgctxt "#32011"
-msgid "Token"
+msgid "Zulu (South Africa)"
 msgstr "Token"
 
-#: /resources/lib/traktapi.py
+#: /resources/settings.xml
 msgctxt "#32012"
-msgid "You must authenticate your Trakt account to use this feature."
+msgid "TMDb API key"
 msgstr "Você deve autenticar sua conta Trakt para usar este recurso."
 
 #: /resources/settings.xml
 msgctxt "#32013"
-msgid "Display Trakt list management options in TMDb details list"
+msgid "OMDb API key"
 msgstr "Exibir opções de gerenciamento da lista Trakt na lista de detalhes do TMDb"
 
 #: /resources/settings.xml
 msgctxt "#32014"
-msgid "Players"
+msgid "Days to cache details"
 msgstr "Players"
 
 #: /resources/settings.xml
 msgctxt "#32015"
-msgid "Players URL"
+msgid "Days to cache lists"
 msgstr "Url dos Players"
 
 #: /resources/settings.xml
 msgctxt "#32016"
-msgid "Update players from URL"
+msgid "MPAA rating prefix"
 msgstr "Atualizar players a partir da URL"
 
 #: /resources/settings.xml
 msgctxt "#32017"
-msgid "API Keys"
+msgid "Language and country"
 msgstr "Chaves de API"
+
+#: /resources/lib/utils.py
+msgctxt "#32018"
+msgid "Choose item"
+msgstr "Chave Fanart.tv API"
+
+#: /resources/lib/requestapi.py
+msgctxt "#32019"
+msgid "Unauthorised 401 Error"
+msgstr "Chave de cliente Fanart.tv"
+
+#: /resources/lib/requestapi.py
+msgctxt "#32020"
+msgid "API Key"
+msgstr "Use apenas se a chave de API padrão estiver desativada"
+
+#: /resources/lib/requestapi.py
+msgctxt "#32021"
+msgid "API returned 401 unauthorised error. If you have entered an API key for this service$COMMA please check that it is correct. If this error relates to TMDb API$COMMA please post a debug log to [B]https://github.com/jurialmunkey/plugin.video.themoviedb.helper/issues[/B]"
+msgstr "Use fanart.tv para arte do plug-in (mais lento)"
+
+#: /resources/settings.xml
+msgctxt "#32022"
+msgid "Authenticate Trakt account..."
+msgstr "Reproduzir / Abrir"
+
+#: /resources/lib/traktapi.py
+msgctxt "#32023"
+msgid "Token"
+msgstr "Ação de seleção padrão no complemento"
+
+#: /resources/lib/traktapi.py
+msgctxt "#32024"
+msgid "You must authenticate your Trakt account to use this feature."
+msgstr "Player padrão para filmes"
+
+#: /resources/settings.xml
+msgctxt "#32025"
+msgid "Display Trakt list management options in TMDb details list"
+msgstr "Player padrão para episódios"
+
+#: /resources/settings.xml
+msgctxt "#32026"
+msgid "Players"
+msgstr "Escolher players padrão"
+
+#: /resources/settings.xml
+msgctxt "#32027"
+msgid "Players URL"
+msgstr "Limpar players padrão"
+
+#: /resources/settings.xml
+msgctxt "#32016"
+msgid "Update players from URL"
+msgstr "Atualizar reprodutores na URL"
+
+#: /resources/settings.xml
+msgctxt "#32017"
+msgid "API Keys"
+msgstr "Chaves API"
 
 #: /resources/settings.xml
 msgctxt "#32018"
 msgid "Fanart.tv API key"
-msgstr "Chave Fanart.tv API"
+msgstr "Chave API Fanart.tv"
 
 #: /resources/settings.xml
 msgctxt "#32019"
 msgid "Fanart.tv client key"
-msgstr "Chave de cliente Fanart.tv"
+msgstr "Chave de Cliente API Fanart.tv"
 
 #: /resources/settings.xml
 msgctxt "#32020"
@@ -2739,7 +2799,7 @@ msgstr "Use apenas se a chave de API padrão estiver desativada"
 #: /resources/settings.xml
 msgctxt "#32021"
 msgid "Use fanart.tv for plugin artwork (slower)"
-msgstr "Use fanart.tv para arte do plug-in (mais lento)"
+msgstr "Use fanart.tv para arte do plugin (mais lento)"
 
 #: /resources/settings.xml
 msgctxt "#32022"
@@ -2769,4 +2829,3 @@ msgstr "Escolher players padrão"
 #: /resources/settings.xml
 msgctxt "#32027"
 msgid "Clear default players"
-msgstr "Limpar players padrão"
