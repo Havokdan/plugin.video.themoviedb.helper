@@ -144,17 +144,17 @@ msgstr "Usar fanart.tv para arte do widget (mais lento)"
 #: /resources/settings.xml
 msgctxt "#32029"
 msgid "OMDb API"
-msgstr "OMDb API"
+msgstr "API do OMDb"
 
 #: /resources/settings.xml
 msgctxt "#32030"
 msgid "Fanart.tv API"
-msgstr "Fanart.tv API"
+msgstr "API de Fanart.tv"
 
 #: /resources/settings.xml
 msgctxt "#32031"
 msgid "Trakt API"
-msgstr "Trakt API"
+msgstr "API do Trakt"
 
 #: /resources/settings.xml
 msgctxt "#32032"
@@ -2170,12 +2170,12 @@ msgstr "Melhores Listas"
 #: /resources/settings.xml
 msgctxt "#32422"
 msgid "MDbList API"
-msgstr "MDbList API"
+msgstr "API da MDbList"
 
 #: /resources/settings.xml
 msgctxt "#32423"
 msgid "MDbList API key"
-msgstr "Chave MDbList API"
+msgstr "Chave da API da MDbList"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32424"
@@ -2480,7 +2480,7 @@ msgstr "Permitir acesso de plug-in de terceiros à chave/token da API"
 #: /resources/settings.xml
 msgctxt "#32484"
 msgid "TVDb API"
-msgstr "TVDb API"
+msgstr "API do TVDb"
 
 #: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#32485"
@@ -2812,7 +2812,7 @@ msgstr "Use apenas se a chave de API padrão estiver desativada"
 #: /resources/settings.xml
 msgctxt "#32021"
 msgid "Use fanart.tv for plugin artwork (slower)"
-msgstr "Use fanart.tv para arte do plug-in (mais lento)"
+msgstr "Use fanart.tv para arte do plugin (mais lento)"
 
 #: /resources/settings.xml
 msgctxt "#32022"
@@ -2822,7 +2822,7 @@ msgstr "Reproduzir / Abrir"
 #: /resources/settings.xml
 msgctxt "#32023"
 msgid "Default select action in addon"
-msgstr "Ação de seleção padrão no complemento"
+msgstr "Ação de seleção padrão no addon"
 
 #: /resources/settings.xml
 msgctxt "#32024"
